@@ -1,0 +1,53 @@
+Codes
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name - Senior Process Engineer</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; box-sizing: border-box; background-color: #f4f4f4; }
+        header { background-color: #004d99; color: white; padding: 20px 0; text-align: center; }
+        section { padding: 20px; margin: 20px 0; background-color: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); }
+        form { background-color: #f2f2f2; padding: 20px; border-radius: 5px; }
+        input[type=text], input[type=email], textarea { width: 100%; padding: 12px; margin: 6px 0; display: inline-block; border: 1px solid #ccc; box-sizing: border-box; }
+        input[type=submit] { background-color: #4CAF50; color: white; padding: 14px 20px; margin: 8px 0; border: none; cursor: pointer; width: 100%; }
+        input[type=submit]:hover { opacity: 0.8; }
+        @media screen and (max-width: 600px) { header, section { padding: 15px; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Senior Process Engineer - Specializing in Aluminum Metallurgy</p>
+    </header>
+    <section id="career-highlights">
+        <h2>Career Highlights</h2>
+        <!-- Add your career highlights here -->
+    </section>
+    <section id="leadership-innovation">
+        <h2>Leadership and Innovation</h2>
+        <!-- Add details of your leadership roles and innovations here -->
+    </section>
+    <section id="major-projects">
+        <h2>Major Projects and Achievements</h2>
+        <!-- Add information about your major projects and achievements here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+</body>
+</html>
+
+
